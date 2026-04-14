@@ -1,0 +1,21 @@
+[
+  {
+    "guid": "b8e7f6a5-4d3c-2b1a-0f9e-8d7c6b5a4f3e",
+    "name": "Jellyfin ListenBrainz Plugin",
+    "description": "Scrobble your music to ListenBrainz, send now playing notifications, and love/hate tracks directly from Jellyfin.",
+    "overview": "Integrates Jellyfin with ListenBrainz for automatic scrobbling, now playing notifications, and track feedback (love/hate). Uses the ListenBrainz API with simple token-based authentication.",
+    "owner": "jellyfin-listenbrainz",
+    "category": "Music",
+    "imageUrl": "https://raw.githubusercontent.com/jellyfin-listenbrainz/jellyfin-plugin-listenbrainz/main/logo.png",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "- v1.0.0.0: Initial release with scrobbling, now playing, love/hate, auto-love, and configuration panel.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jellyfin-listenbrainz/jellyfin-plugin-listenbrainz/releases/download/v1.0.0.0/jellyfin-plugin-listenbrainz_1.0.0.0.zip",
+        "checksum": "",
+        "timestamp": "2026-04-15T16:00:00Z"
+      }
+    ]
+  }
+]
