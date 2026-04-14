@@ -1,6 +1,6 @@
 {
   "guid": "b8e7f6a5-4d3c-2b1a-0f9e-8d7c6b5a4f3e",
-  "name": "Jellyfin ListenBrainz Plugin",
+  "name": "ListenBrainz",
   "description": "Scrobblea tu música a ListenBrainz desde Jellyfin. Actualiza el estado de ahora reproduciendo, envía scrobbles automáticamente y gestiona tus canciones favoritas.",
   "overview": "Integra Jellyfin con ListenBrainz para scrobbling automático, notificaciones de ahora reproduciendo y feedback de canciones (love/hate). Usa la API de ListenBrainz con autenticación simple mediante token de usuario.",
   "owner": "pepebarrascout",
