@@ -1,9 +1,9 @@
 # Jellyfin ListenBrainz Plugin
 <div align="center">
     <p>
-        <img alt="ListenBrainz Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/ListenBrainz_logo.svg/320px-ListenBrainz_logo.svg.png" height="180"/><br />
-        <a href="https://github.com/pepebarrascout/listenbrainz/releases"><img alt="Total GitHub Downloads" src="https://img.shields.io/github/downloads/pepebarrascout/listenbrainz/total?color=352e5b&label=descargas"/></a>
-        <a href="https://github.com/pepebarrascout/listenbrainz/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/pepebarrascout/listenbrainz?color=352e5b"/></a>
+        <img alt="Logo" src="https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-listenbrainz/main/logo.png" height="180"/><br />
+        <a href="https://github.com/pepebarrascout/jellyfin-plugin-listenbrainz/releases"><img alt="Total GitHub Downloads" src="https://img.shields.io/github/downloads/pepebarrascout/jellyfin-plugin-listenbrainz/total?color=352e5b&label=descargas"/></a>
+        <a href="https://github.com/pepebarrascout/jellyfin-plugin-listenbrainz/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/pepebarrascout/jellyfin-plugin-listenbrainz?color=352e5b"/></a>
         <a href="https://jellyfin.org/"><img alt="Jellyfin Version" src="https://img.shields.io/badge/Jellyfin-10.11.x-blue.svg"/></a>
         <a href="https://listenbrainz.org/"><img alt="ListenBrainz" src="https://img.shields.io/badge/ListenBrainz-352e5b?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTIgMkw1IDlsNSA3IDUtN2w3LTciLz48L3N2Zz4=&logoColor=white"/></a>
     </p>
@@ -41,7 +41,7 @@ El plugin ha sido probado y funciona correctamente en los siguientes clientes de
 | 🖥️ **[Feishin](https://github.com/jeffvli/feishin)** | Escritorio (AppImage Linux) | ✅ Funcional |
 | 🎵 **[Finamp](https://github.com/UnicornsOnLSD/finamp)** | Android (versión Beta) | ✅ Funcional |
 
-> **Próximamente** se probará en otros clientes de Jellyfin. Si has probado el plugin en un cliente que no aparece en la lista, por favor envía tu reporte de uso abriendo un [Issue](https://github.com/pepebarrascout/listenbrainz/issues) para que podamos actualizar esta tabla.
+> **Próximamente** se probará en otros clientes de Jellyfin. Si has probado el plugin en un cliente que no aparece en la lista, por favor envía tu reporte de uso abriendo un [Issue](https://github.com/pepebarrascout/jellyfin-plugin-listenbrainz/issues) para que podamos actualizar esta tabla.
 
 ---
 
@@ -55,7 +55,7 @@ Esta es la forma más sencilla de instalar el plugin. Solo necesitas agregar el 
 2. Haz clic en el botón **+** (agregar repositorio)
 3. Ingresa los siguientes datos:
    - **Nombre**: `ListenBrainz Plugin`
-   - **URL del Manifest**: `https://raw.githubusercontent.com/pepebarrascout/listenbrainz/main/manifest.json`
+   - **URL del Manifest**: `https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-listenbrainz/main/manifest.json`
 4. Haz clic en **Guardar**
 5. Navega a la pestaña **Catálogo**
 6. Busca **ListenBrainz** en la lista de plugins disponibles
@@ -201,7 +201,7 @@ Si te interesa crear **listas inteligentes y dinámicas** en Jellyfin (playlists
 
 ## 💬 Soporte y Contribuciones
 
-- **Reportes de bugs y sugerencias**: Usa la sección de [Issues](https://github.com/pepebarrascout/listenbrainz/issues) para reportar problemas o proponer nuevas funciones
+- **Reportes de bugs y sugerencias**: Usa la sección de [Issues](https://github.com/pepebarrascout/jellyfin-plugin-listenbrainz/issues) para reportar problemas o proponer nuevas funciones
 - **Contribuciones**: Las contribuciones son bienvenidas. No dudes en enviar un Pull Request
 - **Reportes de uso**: Si has probado el plugin en un cliente de Jellyfin que no aparece en la lista de [Clientes Probados](#-clientes-probados), por favor compártelo
 
