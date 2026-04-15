@@ -122,7 +122,7 @@ public class ListenBrainzApiClient
         }
 
         var payload = BuildListenPayload(artist, title, album, additionalInfo);
-        var body = BuildSubmitBody("playing", payload);
+        var body = BuildSubmitBody("playing_now", payload);
 
         return await SubmitListensAsync(body);
     }
