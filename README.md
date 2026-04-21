@@ -55,7 +55,10 @@ Esta es la forma más sencilla de instalar el plugin. Solo necesitas agregar el 
 2. Haz clic en el botón **+** (agregar repositorio)
 3. Ingresa los siguientes datos:
    - **Nombre**: `ListenBrainz Plugin`
-   - **URL del Manifest**: `https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-listenbrainz/main/manifest.json`
+   - **URL del Manifest**:
+```
+https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-listenbrainz/main/manifest.json
+```
 4. Haz clic en **Guardar**
 5. Navega a la pestaña **Catálogo**
 6. Busca **ListenBrainz** en la lista de plugins disponibles
