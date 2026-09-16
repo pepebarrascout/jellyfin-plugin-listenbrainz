@@ -4,14 +4,14 @@
         <img alt="Logo" src="https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-listenbrainz/main/logo.png" height="180"/><br />
         <a href="https://github.com/pepebarrascout/jellyfin-plugin-listenbrainz/releases"><img alt="Total GitHub Downloads" src="https://img.shields.io/github/downloads/pepebarrascout/jellyfin-plugin-listenbrainz/total?color=352e5b&label=descargas"/></a>
         <a href="https://github.com/pepebarrascout/jellyfin-plugin-listenbrainz/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/pepebarrascout/jellyfin-plugin-listenbrainz?color=352e5b"/></a>
-        <a href="https://jellyfin.org/"><img alt="Jellyfin Version" src="https://img.shields.io/badge/Jellyfin-10.11.x-blue.svg"/></a>
+        <a href="https://jellyfin.org/"><img alt="Jellyfin Version" src="https://img.shields.io/badge/Jellyfin-12.1.x-blue.svg"/></a>
         <a href="https://listenbrainz.org/"><img alt="ListenBrainz" src="https://img.shields.io/badge/ListenBrainz-352e5b?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTIgMkw1IDlsNSA3IDUtN2w3LTciLz48L3N2Zz4=&logoColor=white"/></a>
     </p>
 </div>
 
 > **Scrobblea tu música a ListenBrainz** desde Jellyfin. Actualiza el estado de "Ahora Reproduciendo", envía scrobbles automáticamente y gestiona tus canciones favoritas directamente desde cualquier cliente de Jellyfin.
 
-**Requiere Jellyfin versión `10.11.0` o superior.**
+**Requiere Jellyfin versión `12.1.0` o superior.**
 
 ---
 
@@ -125,7 +125,7 @@ A diferencia de Last.fm, ListenBrainz solo necesita un token de usuario simple. 
 
 ### El plugin no aparece en el Dashboard
 
-- Asegúrate de estar usando Jellyfin 10.11.x o superior
+- Asegúrate de estar usando Jellyfin 12.1.x o superior
 - Reinicia Jellyfin después de instalar el plugin
 - Verifica que los archivos `.dll` estén en la carpeta correcta de plugins
 
