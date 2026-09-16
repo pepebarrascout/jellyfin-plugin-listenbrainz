@@ -4,14 +4,25 @@
         <img alt="Logo" src="https://raw.githubusercontent.com/pepebarrascout/jellyfin-plugin-listenbrainz/main/logo.png" height="180"/><br />
         <a href="https://github.com/pepebarrascout/jellyfin-plugin-listenbrainz/releases"><img alt="Total GitHub Downloads" src="https://img.shields.io/github/downloads/pepebarrascout/jellyfin-plugin-listenbrainz/total?color=352e5b&label=descargas"/></a>
         <a href="https://github.com/pepebarrascout/jellyfin-plugin-listenbrainz/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/pepebarrascout/jellyfin-plugin-listenbrainz?color=352e5b"/></a>
-        <a href="https://jellyfin.org/"><img alt="Jellyfin Version" src="https://img.shields.io/badge/Jellyfin-12.x-blue.svg"/></a>
+        <a href="https://jellyfin.org/"><img alt="Jellyfin Version" src="https://img.shields.io/badge/Jellyfin-12.1-352e5b.svg"/></a>
         <a href="https://listenbrainz.org/"><img alt="ListenBrainz" src="https://img.shields.io/badge/ListenBrainz-352e5b?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTIgMkw1IDlsNSA3IDUtN2w3LTciLz48L3N2Zz4=&logoColor=white"/></a>
     </p>
 </div>
 
 > **Scrobblea tu música a ListenBrainz** desde Jellyfin. Actualiza el estado de "Ahora Reproduciendo", envía scrobbles automáticamente y gestiona tus canciones favoritas directamente desde cualquier cliente de Jellyfin.
 
-**Requiere Jellyfin versión `12.0` o superior (compatible con Jellyfin 12.1).**
+**Compatible con Jellyfin `12.1`** · Si usas Jellyfin `10.11.11`, consulta la [versión legacy](#-versión-legacy-para-jellyfin-101111) más abajo.
+
+---
+
+## 🔀 Compatibilidad de Versiones
+
+| Versión del Plugin | Jellyfin Compatible | .NET | Estado |
+|---|---|---|---|
+| **v2.0.0.0** (actual) | 12.0 · 12.1 | .NET 10 | ✅ Activa |
+| **v1.0.1.0** (legacy) | 10.11.x · 10.11.11 | .NET 9 | ⚠️ Solo correcciones críticas |
+
+> **Si usas Jellyfin 10.11.11**: No puedes instalar v2.0.0.0 (usa .NET 10 y targetAbi 12.0.0.0, incompatibles con Jellyfin 10.x). Usa la versión **v1.0.1.0** descargándola directamente desde [Releases](../../releases/tag/v1.0.1.0).
 
 ---
 
@@ -122,7 +133,7 @@ A diferencia de Last.fm, ListenBrainz solo necesita un token de usuario simple. 
 
 ### El plugin no aparece en el Dashboard
 
-- Asegúrate de estar usando Jellyfin 12.x o superior
+- Asegúrate de estar usando **Jellyfin 12.1** (o 12.0). Si usas Jellyfin 10.11.11, necesitas la [versión legacy v1.0.1.0](../../releases/tag/v1.0.1.0)
 - Reinicia Jellyfin después de instalar el plugin
 - Verifica que los archivos `.dll` estén en la carpeta correcta de plugins
 
@@ -169,6 +180,24 @@ dotnet build -c Release
 # Publicar artefactos
 dotnet publish -c Release -o artifacts
 ```
+
+---
+
+## 📦 Versión Legacy para Jellyfin 10.11.11
+
+Si estás usando **Jellyfin 10.11.11** o cualquier versión 10.11.x, la versión actual del plugin (v2.0.0.0) **no es compatible** porque requiere .NET 10 y la ABI de Jellyfin 12.x.
+
+Para Jellyfin 10.11.11, usa la **versión legacy v1.0.1.0**:
+
+1. Descarga el ZIP desde [Release v1.0.1.0](../../releases/tag/v1.0.1.0)
+2. Descomprime el archivo
+3. Copia los archivos a la carpeta de plugins de tu servidor Jellyfin:
+   - **Linux**: `~/.config/jellyfin/plugins/ListenBrainz/`
+   - **Windows**: `%LocalAppData%\Jellyfin\plugins\ListenBrainz\`
+   - **Docker**: Monta un volumen en `/config/plugins/ListenBrainz/` dentro del contenedor
+4. Reinicia Jellyfin
+
+> **Nota**: La versión legacy solo recibirá correcciones críticas de seguridad. Se recomienda actualizar a Jellyfin 12.1 para usar la versión más reciente del plugin.
 
 ---
 
